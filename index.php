@@ -34,6 +34,7 @@ function mainContent() {
     echo "              <div class='entry-content'>\n";
     echo $content;
     echo "              </div> <!-- entry-content -->\n";
+    echo "              <script type='module' src='fa-loader.js'></script>\n";
     echo "            </article>\n";
 
 }
